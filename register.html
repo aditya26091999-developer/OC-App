@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Community</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./scripts/main.js"></script>
+</head>
+<body>
+    <center>
+        <h1> Welcome to the Online Community!</h1>
+        <hr>
+        <br>
+
+        <div class='register-card'>
+            <h2>Register</h2>
+            <div>
+                <label for="s_name_">Name</label><br>
+                <input type="text" name="s_name_" id="s_name_">
+            </div>
+            <br>
+            <div>
+                <label for="s_email_">Email</label><br>
+                <input type="text" name="s_email_" id="s_email_">
+            </div>
+            <br>
+            <div>
+                <label for="s_phone_">Phone</label><br>
+                <input type="text" name="s_phone_" id="s_phone_">
+            </div>
+            <br>
+            <div>
+                <label for="s_password_">Password</label><br>
+                <input type="password" name="s_password_" id="s_password_">
+            </div>
+            <br>
+            <div>
+                <label for="c_password_">Confirm Password</label><br>
+                <input type="password" name="c_password_" id="c_password_">
+            </div>
+            <div class="button-lineup" >
+                <button id="register-button" onclick="register()">Register!</button>
+            </div>
+            <div class="button-lineup" >
+                <button onclick="window.location.href='/index.html'" id="instead-button" >Login Instead?</button>
+            </div>
+            
+
+        </div>
+
+        
+    </center>
+
+    
+</body>
+</html>
