@@ -14,9 +14,9 @@ h2{
 
 .register-card input{
     width: 50%;
-    padding-top: 10px;
+    /* padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 5px;
+    margin-top: 5px; */
 }
 
 .button-lineup button{
@@ -26,5 +26,5 @@ h2{
 }
 
 #register-button,#login-button{
-    background-color: green;
+    background-color: rgb(12, 64, 207);
 }
